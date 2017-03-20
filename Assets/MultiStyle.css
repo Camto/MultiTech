@@ -1,0 +1,168 @@
+@font-face {
+	
+	font-family: Actors;
+	src: url("Guild of Professional Actors.ttf");
+	
+}
+
+body {
+	
+	font-family: Actors;
+	font-weight: 900;
+	
+}
+
+#main {
+	
+	overflow: auto;
+	width: 80vw; /* 80% of HUD width */
+	height: 80vh; /* 80% of HUD height */
+	border-radius: 30px; /* roundness */
+	background-color: #30C0FF; /* color */
+	box-shadow: 0 0 30px 30px #30C0FF; /* border blur */
+	padding: 10px; /* Put the text more inside */
+	position: absolute; /* center the div */
+	margin: auto; /* center the div */
+	top: 0px; /* center the div */
+	left: 0px; /* center the div */
+	bottom: 0px; /* center the div */
+	right: 0px; /* center the div */
+	font-size: 40px;
+	
+}
+
+#page {
+	
+	padding: 5px 5px 5px 5px;
+	margin: 50px 30px 30px 30px;
+	background-color: rgba(0, 0, 0, 0.0625);
+	box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.0625);
+	border-radius: 30px;
+	
+}
+
+ab {
+	
+	font-size: 45px;
+	color: #E8E8E8;
+	text-decoration: underline;
+	
+}
+
+n {
+	
+	font-family: courier;
+	font-size: 35px;
+	font-weight: bold;
+	
+}
+
+#page a {
+	
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.75);
+	
+}
+
+#page a:hover {
+	
+	color: white;
+	
+}
+
+#page button {
+	
+	min-width: 125px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	padding: 20px 20px 10px 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	
+}
+
+#page button:hover {
+	
+	background-color: black;
+	box-shadow: 0px 0px 5px 5px black;
+	
+}
+
+#menu {
+	
+	overflow: hidden;
+	margin-bottom: 20px;
+	
+}
+
+#menu a {
+	
+	float: left;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	padding: 20px 20px 10px 20px;
+	
+}
+
+.drop_container {
+	
+	overflow: hidden;
+	float: left;
+	
+}
+
+.drop_button {
+	
+	border: none;
+	outline: none;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	padding: 20px 20px 10px 20px;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	cursor: pointer;
+	
+}
+
+#menu a:hover, .drop_container:hover, .drop_button:hover {
+	
+	background-color: black;
+	box-shadow: 0px 0px 5px 5px black;
+	
+}
+
+.drop_box {
+	
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	z-index: 1;
+	
+}
+
+.drop_box a {
+	
+	float: none !important;
+	display: block;
+	
+}
+
+.drop_container:hover .drop_box {
+	
+	display: block;
+	
+}
